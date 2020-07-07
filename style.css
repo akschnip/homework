@@ -1,0 +1,95 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Optima', sans-serif;
+}
+nav {
+  background-color: lightgray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+}
+nav ul li {
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+#brand  {
+  float: left;
+}
+#brand .nav-link{
+  color: black;
+  font-size: 18pt;
+}
+#brand .nav-link:hover{
+  color: darkslategray;
+}
+.nav-link {
+  color:black;
+  text-decoration: none;
+  font-family: 'Optima', sans-serif;
+}
+.nav-link:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40pt;
+  font-family: 'Optima', sans-serif;
+}
+#home {
+  margin-top: 50px;
+  position: relative;
+  left: -8px;
+  width: 100vw;
+  height: 30vh;
+  padding-top: 3em;
+  background: url(./assets/building.jpg) center 75% no-repeat fixed;
+  background-size: cover;
+}
+h1.header-tag {
+  text-align: center;
+  color: rgb(36, 62, 97);
+  text-shadow: 2px 2px 2px black;
+}
+h3.header-tag {
+  text-align: center;
+  margin-top: -30px;
+  font-size: 18pt;
+}
+h2 {
+  font-family: 'Optima', sans-serif;
+  color: rgb(36, 62, 97);
+}
+.main {
+  text-align: center;
+}
+#about {
+  margin-top: 50px;
+  display: left;
+}
+#about-picture {
+  width: 30vw;
+  float: left;
+}
+#profile-pic {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 0.4em;
+  box-shadow: 2px 2px 2px black;
+}
+#about-content {
+  width: 80vw;
+  text-align: right;
+  float: center;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+#video {
+  margin-top: 50px;
+}
